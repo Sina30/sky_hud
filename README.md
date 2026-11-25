@@ -4,6 +4,20 @@ Modernes FiveM-HUD für **ESX, QBCore, QBox und Standalone**. Keine SQL-Datenban
 
 ![HUD](docs/screenshots$1.png)
 
+## Screenshots
+
+| | |
+|---|---|
+| ![boat](docs/screenshots/boat.png) **boat** | ![boat-crop](docs/screenshots/boat_crop.png) **boat_crop** |
+| ![Kartenübersicht](screenshots/04-karte-uebersicht.png) **Übersicht mit Stadtteilen und Blips** | ![Nacht](screenshots/05-karte-nacht.png) **Nachtlook nach Spieluhr** |
+| ![Minimap](screenshots/06-minimap.png) **3D-Minimap (vergrößert)** | ![Einstellungen](screenshots/07-einstellungen.png) **Einstellungen wie GTA** |
+| ![Tastenbelegung](screenshots/08-tastenbelegung.png) **Tastenbelegung mit 13 Kategorien** | ![Freie Kamera](screenshots/09-freie-kamera.png) **Freie Kamera** |
+| ![Shop](screenshots/10-shop.png) **Shop-Seite** | |
+
+> Die Bilder sind mit Beispieldaten erstellt. Im Spiel kommen Blips, Route, Werte und Tasten live aus GTA.
+
+---
+
 ## Funktionen
 
 | Bereich | Inhalt |
