@@ -12,7 +12,9 @@ Modernes FiveM-HUD für **ESX, QBCore, QBox und Standalone**. Keine SQL-Datenban
 | ![chase](docs/screenshots/chase.png) **chase** | ![chase_crop](docs/screenshots/chase_crop.png) **chase_crop** |
 | ![compass_crop](docs/screenshots/compass_crop.png) **compass crop** | ![Einstellungen](docs/screenshots/settings.png) **Einstellungen wie GTA** |
 | ![dial_styles](docs/screenshots/dial_styles.png) **dial styles** | ![hero](docs/screenshots/hero.png) **hero** |
-| ![minimap_crop](docs/screenshots/minimap_crop.png) **minimap crop** | |
+| ![minimap_crop](docs/screenshots/minimap_crop.png) **minimap crop** | ![plane](docs/screenshots/plane.png) **plane** |
+| ![plane_crop](docs/screenshots/plane_crop.png) **plane crop** | ![status_crop](docs/screenshots/status_crop.png) **status crop** | 
+| ![weapon_crop](docs/screenshots/weapon_crop.png) **weapon crop** | |
 
 > Die Bilder sind mit Beispieldaten erstellt. Im Spiel kommen Blips, Route, Werte und Tasten live aus GTA.
 
