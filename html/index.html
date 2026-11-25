@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>sky_hud</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hud" class="hidden">
+
+    <!-- Kinomodus -->
+    <div id="cinema-top" class="cinema-bar"></div>
+    <div id="cinema-bottom" class="cinema-bar"></div>
+
+    <!-- Spielerstatus (oben links) -->
+    <section id="status" class="hud-el" data-el="status">
+        <div class="stat" data-stat="health"><i class="ico"></i><div class="bar segmented"><span></span></div></div>
+        <div class="stat" data-stat="armor"><i class="ico"></i><div class="bar"><span></span></div></div>
+        <div class="stat" data-stat="stamina"><i class="ico"></i><div class="bar"><span></span></div></div>
+        <div class="stat" data-stat="oxygen"><i class="ico"></i><div class="bar"><span></span></div></div>
+        <div class="stat" data-stat="hunger"><i class="ico"></i><div class="bar"><span></span></div></div>
+        <div class="stat" data-stat="thirst"><i class="ico"></i><div class="bar"><span></span></div></div>
+        <div class="stat" data-stat="stress"><i class="ico"></i><div class="bar"><span></span></div></div>
+        <div id="wanted" class="wanted"></div>
+    </section>
+
+    <!-- Kompass (oben Mitte) -->
+    <section id="compass" class="hud-el" data-el="compass">
+        <div class="compass-strip">
+            <div class="compass-track"></div>
+            <div class="compass-markers"></div>
+            <div class="compass-pointer"></div>
+        </div>
+        <div class="compass-info">
+            <span class="compass-deg"></span>
+            <span class="compass-street"></span>
+            <span class="compass-zone"></span>
+        </div>
+    </section>
+
+    <!-- Waffe (oben rechts) -->
+    <section id="weapon" class="hud-el" data-el="weapon">
+        <div class="ammo"><b class="clip">0</b><small class="reserve">0</small></div>
+        <div class="weapon-icon"></div>
+        <div class="weapon-name"></div>
+    </section>
+
+    <!-- Geld-Benachrichtigungen -->
+    <section id="money" class="hud-el" data-el="money"></section>
+
+    <!-- Minimap-Rahmen + GPS + Sprache (an die native Minimap gekoppelt) -->
+    <section id="minimap-frame">
+        <div class="corner tl"></div><div class="corner tr"></div>
+        <div class="corner bl"></div><div class="corner br"></div>
+        <div class="chase-label"></div>
+        <div class="mm-stack">
+            <div id="veh-intro" class="veh-intro off">
+                <small class="vi-make"></small>
+                <b class="vi-model"></b>
+                <div class="vi-icons"></div>
+            </div>
+            <div id="gps" class="gps">
+                <div class="gps-text"><b class="gps-main"></b><small class="gps-dist"></small></div>
+                <div class="gps-icon"></div>
+            </div>
+        </div>
+        <div id="gps-total" class="gps-total"></div>
+        <div id="voice" class="voice">
+            <div class="voice-ring"><i class="voice-ico"></i></div>
+            <div class="voice-range"></div>
+            <div class="voice-radio"></div>
+        </div>
+    </section>
+
+    <!-- Fahrzeug (unten rechts) -->
+    <section id="vehicle" class="hud-el" data-el="vehicle">
+        <div class="veh-name"><small class="veh-make"></small><b class="veh-model"></b></div>
+        <div class="dial-wrap"></div>
+        <div class="fuel-gauge"></div>
+        <div class="veh-alert"></div>
+    </section>
+</div>
+
+<!-- Layout-Editor Werkzeugleiste -->
+<div id="edit-bar" class="hidden">
+    <span class="edit-hint"></span>
+    <button id="edit-done"></button>
+</div>
+
+<!-- Einstellungsmenü -->
+<div id="settings" class="hidden">
+    <header class="set-head">
+        <div class="set-brand"><span class="brand"></span><span class="sep">|</span>
+            <div><h1 class="title"></h1><small class="subtitle"></small></div>
+        </div>
+        <button class="set-close" data-action="close">✕</button>
+    </header>
+    <nav class="set-tabs">
+        <kbd>Q</kbd>
+        <button data-tab="visibility"></button>
+        <button data-tab="layout"></button>
+        <button data-tab="behaviour"></button>
+        <kbd>E</kbd>
+    </nav>
+    <main class="set-body">
+        <div class="set-content"></div>
+        <aside class="set-side">
+            <small class="side-kicker"></small>
+            <h2 class="side-title"></h2>
+            <p class="side-desc"></p>
+            <div class="side-actions">
+                <button data-action="showAll"><b></b><small></small><i>›</i></button>
+                <button data-action="resetLayout"><b></b><small></small><i>›</i></button>
+            </div>
+        </aside>
+    </main>
+    <footer class="set-foot">
+        <span class="page"></span>
+        <div><button data-action="defaults" class="foot-defaults"></button>
+            <kbd>ESC</kbd><button data-action="close" class="foot-close"></button></div>
+    </footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
