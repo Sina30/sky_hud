@@ -9,10 +9,10 @@ Modernes FiveM-HUD für **ESX, QBCore, QBox und Standalone**. Keine SQL-Datenban
 | | |
 |---|---|
 | ![boat](docs/screenshots/boat.png) **boat** | ![boat-crop](docs/screenshots/boat_crop.png) **boat_crop** |
-| ![Kartenübersicht](screenshots/04-karte-uebersicht.png) **Übersicht mit Stadtteilen und Blips** | ![Nacht](screenshots/05-karte-nacht.png) **Nachtlook nach Spieluhr** |
-| ![Minimap](screenshots/06-minimap.png) **3D-Minimap (vergrößert)** | ![Einstellungen](screenshots/07-einstellungen.png) **Einstellungen wie GTA** |
-| ![Tastenbelegung](screenshots/08-tastenbelegung.png) **Tastenbelegung mit 13 Kategorien** | ![Freie Kamera](screenshots/09-freie-kamera.png) **Freie Kamera** |
-| ![Shop](screenshots/10-shop.png) **Shop-Seite** | |
+| ![chase](docs/screenshots/chase.png) **chase** | ![chase_crop](docs/screenshots/chase_crop.png) **chase_crop** |
+| ![compass_crop](docs/screenshots/compass_crop.png) **compass crop** | ![Einstellungen](docs/screenshots/settings.png) **Einstellungen wie GTA** |
+| ![dial_styles](docs/screenshots/dial_styles.png) **dial styles** | ![hero](docs/screenshots/hero.png) **hero** |
+| ![minimap_crop](docs/screenshots/minimap_crop.png) **minimap crop** | |
 
 > Die Bilder sind mit Beispieldaten erstellt. Im Spiel kommen Blips, Route, Werte und Tasten live aus GTA.
 
