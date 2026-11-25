@@ -2,6 +2,8 @@
 
 Modernes FiveM-HUD für **ESX, QBCore, QBox und Standalone**. Keine SQL-Datenbank nötig, die Einstellungen werden pro Spieler per KVP gespeichert.
 
+![HUD](screenshots/docs/screenshots$1.png)
+
 ## Funktionen
 
 | Bereich | Inhalt |
